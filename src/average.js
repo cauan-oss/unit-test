@@ -17,9 +17,13 @@
     for (let i = 0; i < media.length; i += 1) {
       soma += media[i];
       total = Math.round(soma / media.length);
-    }
+      if (typeof media[i] !== 'number') return undefined;
+    } 
+
+    if (media.length === 0) return undefined;
+    
     return total;
   };
-  console.log(average([0, 0, 0, 0, 0, 0, 1]));
+  console.log(typeof 1);
   
   module.exports = average;
