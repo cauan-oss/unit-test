@@ -24,6 +24,5 @@
     
     return total;
   };
-  console.log(typeof 1);
   
   module.exports = average;
