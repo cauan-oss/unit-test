@@ -27,7 +27,7 @@
   Escreva pelo menos cinco testes para essa função no arquivo tests/productDetails.js para garantir que a implementação de productDetails está correta.
 */
 
-const productDetails = (firstProduct, secondProduct) => [
+ const productDetails = (firstProduct, secondProduct) => [
   {
     name: firstProduct,
     details: {
@@ -40,6 +40,9 @@ const productDetails = (firstProduct, secondProduct) => [
       productId: `${secondProduct}123`,
     },
   },
-];
+]; 
+const teste = "batatona";
+
+console.log(teste.slice(teste.length - 3))
 
 module.exports = productDetails;
